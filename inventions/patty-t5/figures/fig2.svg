@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fff"/>
+  <!-- Side frame -->
+  <rect x="80" y="120" width="640" height="20" fill="none" stroke="#111" stroke-width="2"/>
+  <rect x="80" y="420" width="640" height="20" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Belt line -->
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#111" stroke-width="3"/>
+  <!-- Rollers -->
+  <circle cx="120" cy="200" r="15" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="680" cy="200" r="15" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Drive motor -->
+  <rect x="650" y="230" width="60" height="40" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="680" y="255" font-family="Helvetica, Arial, sans-serif" font-size="10" text-anchor="middle">Motor (12)</text>
+  <!-- Assembly stations -->
+  <rect x="200" y="160" width="50" height="35" fill="none" stroke="#111" stroke-width="1"/>
+  <rect x="300" y="160" width="50" height="35" fill="none" stroke="#111" stroke-width="1"/>
+  <rect x="400" y="160" width="50" height="35" fill="none" stroke="#111" stroke-width="1"/>
+  <rect x="500" y="160" width="50" height="35" fill="none" stroke="#111" stroke-width="1"/>
+  <!-- Station labels -->
+  <text x="225" y="155" font-family="Helvetica, Arial, sans-serif" font-size="9">Station (26)</text>
+  <!-- Redundant motor -->
+  <rect x="650" y="290" width="60" height="30" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="680" y="310" font-family="Helvetica, Arial, sans-serif" font-size="9" text-anchor="middle">Redundant (30)</text>
+  <!-- Output end -->
+  <rect x="700" y="180" width="30" height="40" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Caption -->
+  <text x="400" y="560" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">FIG. 2</text>
+</svg>
