@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fff"/>
+  <!-- Main frame -->
+  <rect x="50" y="150" width="700" height="80" fill="none" stroke="#111" stroke-width="2"/>
+  <rect x="50" y="350" width="700" height="80" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Belts -->
+  <line x1="60" y1="190" x2="740" y2="190" stroke="#111" stroke-width="4"/>
+  <line x1="60" y1="390" x2="740" y2="390" stroke="#111" stroke-width="4"/>
+  <!-- Rollers -->
+  <circle cx="80" cy="190" r="12" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="720" cy="190" r="12" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="80" cy="390" r="12" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="720" cy="390" r="12" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Diverter arm -->
+  <line x1="120" y1="270" x2="160" y2="310" stroke="#111" stroke-width="3"/>
+  <!-- Input chute -->
+  <rect x="40" y="260" width="60" height="40" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Sensors -->
+  <circle cx="200" cy="100" r="8" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="200" y1="108" x2="200" y2="150" stroke="#111" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Assembly stations -->
+  <rect x="250" y="160" width="40" height="30" fill="none" stroke="#111" stroke-width="1"/>
+  <rect x="350" y="160" width="40" height="30" fill="none" stroke="#111" stroke-width="1"/>
+  <rect x="450" y="160" width="40" height="30" fill="none" stroke="#111" stroke-width="1"/>
+  <rect x="250" y="360" width="40" height="30" fill="none" stroke="#111" stroke-width="1"/>
+  <rect x="350" y="360" width="40" height="30" fill="none" stroke="#111" stroke-width="1"/>
+  <rect x="450" y="360" width="40" height="30" fill="none" stroke="#111" stroke-width="1"/>
+  <!-- Output -->
+  <rect x="700" y="260" width="50" height="40" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Labels -->
+  <text x="400" y="130" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">Track A (16)</text>
+  <text x="400" y="450" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">Track B (18)</text>
+  <text x="100" y="285" font-family="Helvetica, Arial, sans-serif" font-size="12">Input (22)</text>
+  <text x="720" y="285" font-family="Helvetica, Arial, sans-serif" font-size="12">Output (28)</text>
+  <text x="200" y="85" font-family="Helvetica, Arial, sans-serif" font-size="11">Sensors (20)</text>
+  <text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">FIG. 1</text>
+</svg>
